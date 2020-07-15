@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String city =sc.nextLine();
         boolean False=false;
-        if(city.contains("burg")){
+        if(city.endsWith("burg")){
             False=true;
             System.out.println(False);
         }

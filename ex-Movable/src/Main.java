@@ -2,12 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
         Point p1 = new Point(2 , 5);
-        Point p2 = new Point(5 , 5);
-        Point p3 = new Point(5 , 10);
 
-       Triangle t1 = new Triangle(p1 ,p2 ,p3);
+
+      Rectangle t1 = new Rectangle(p1 ,10 ,20);
         System.out.println(t1);
-        t1.ScaleUp(4);
+        t1.ScaleUp(2);
         System.out.println(t1);
 	    }
 }

@@ -4,3 +4,5 @@ public interface Movable extends Scalable {
     void moveLeft(int distance);
     void moveRight(int distance);
 }
+
+

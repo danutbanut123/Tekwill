@@ -23,11 +23,16 @@ public class Rectangle extends Polygon {
         //vertices[1].setY(vertices[1].getY()*scale);
        // vertices[2].setY(vertices[2].getY()*scale);
        // vertices[3].setY(vertices[3].getY()*scale);
-        for(Point biggerx:vertices){
+        
+        /*for(Point biggerx:vertices){
             biggerx.setX(biggerx.getX()*scale);
         }
         for(Point biggery:vertices){
             biggery.setY(biggery.getY()*scale);
+        }*/
+        for(Point bigger:vertices){
+            bigger.setX(bigger.getX()*scale);
+            bigger.setY(bigger.getY()*scale);
         }
 
     }
